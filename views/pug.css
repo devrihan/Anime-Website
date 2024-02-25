@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: black;
+    padding: 18px 5px;
+    margin-top: 10px;
+    
+    
+}
+
+#nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#nav li{
+    list-style: none;
+    font-family: "Anta", sans-serif;
+    font-size: 21px;
+    color: rgb(255, 0, 0);
+    
+}
+
+#nav li a{
+    text-decoration: none;
+    padding: 7px 20px;
+    color: WHITE;
+}
+
+#nav li a:hover {
+    text-shadow: 2px 2px 10px #ff0000;
+    filter: dropshadow(color=#ff0000, offx=2, offy=2);
+    font-size: 25px;
+  }
+
+
+
+
+
+
+#imgsec{
+    
+    background-color: rgb(0, 0, 0);
+    height: 740px;
+    background-image: url(https://wallpapers-clan.com/wp-content/uploads/2023/10/naruto-itachi-uchiha-dark-red-desktop-wallpaper-preview.jpg);
+    
+    /* background-position: left; */
+    margin-top: -80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+#imgsec h1{
+    color: white;
+    font-size: 150px;
+    font-family: "Noto Sans HK", sans-serif;
+}
+
+#sponsec{
+    background-color: rgb(0, 0, 0);
+    height: 700px;
+    padding: 30px;
+}
+
+#sponsec h3{
+    text-align: center;
+    color: #ff0000;
+    font-size: 50px;
+    text-shadow: 2px 2px 25px rgb(255, 0, 0);
+    
+}
+
+.card{
+    border: 0px solid red;
+    border-radius: 20px;
+    width: 30%;
+    height: 376px;
+    margin-top: 60px;
+    margin-left: 33px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 0px 23px red;
+}
+
+#card1{
+    background-image: url(https://cdn.hero.page/pfp/1c310b44-759d-4ce4-93cc-153b7834c0d8-demon-boy-with-horns-demonic-anime-pfp-for-boys-2.png);
+    background-size: cover;
+    
+}
+
+#card2{
+    background-image: url(https://cdn.imgchest.com/files/84jdcwne5n4.png);
+    background-size: cover;
+    
+}
+
+#card3{
+    background-image: url(https://cdn.imgchest.com/files/g4z9c8oz267.png);
+    background-size: cover;
+    
+}
+
+.card h2{
+    margin-top: 20px;
+    text-shadow: 0px 0px 30px black;
+    font-size: 50px;
+}
+
+#my{
+    
+    color: white;
+    width: 915px;
+    margin: 50px auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+#footer{
+    background-color: red;
+    height: 700px;
+    padding-top: 30px;
+}
+
+#footer h3{
+    margin-top: 190px;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+#forms{
+    margin: 20px auto;
+    
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    
+}
+
+.inp{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15px;
+    border-style: none;
+    box-shadow: 0px 0px 20px black;
+}
+
+#sub{
+    width: 120px;
+    margin: 10px auto;
+    border-radius: 20px;
+    color: white;
+    height: 35px;
+    background-color: black;
+    box-shadow: 0px 0px 10px black;
+    border-style: none;
+}
+
+#sub:hover{
+    background-color: #ff0000;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#last{
+    background-color: black;
+    height: 45px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Cedarville Cursive", cursive;
+}
